@@ -1,0 +1,28 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.button {
+    width: 120px;
+    background-image: url("./sort_both.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    text-align: left;
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+}
+
+
+.desc{
+    background-image: url("./sort_desc.png");
+}
+
+.asc{
+    background-image: url("./sort_asc.png");
+}

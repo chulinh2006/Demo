@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <title>Demo</title>
+</head>
+
+<body>
+    <div class="container">
+        <button id="demo" class="button" onclick="changeSort();">
+            Position
+        </button>
+    </div>
+
+    <script>
+        var element = document.getElementById("demo");
+        function changeSort() {
+            if (element.classList.contains("asc")) {
+                element.classList.remove("asc");
+                element.classList.add("desc");
+            } else {
+                element.classList.remove("desc");
+                element.classList.add("asc");
+            }
+        }
+    </script>
+</body>
+
+</html>
